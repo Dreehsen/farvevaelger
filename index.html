@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passer farverne sammen?</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-text">
+            <img class="logo" src="assets/images/logo.png" alt="logo">
+            <a href="#">Vores firmanavn</a>
+        </div>
+            <ol>
+                <li><a href="#">Om os</a></li>
+                <li><a href="#">Vores arbejde</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a class="button" href="#">Køb</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <article class="hero-text-container">
+                <h1>Min dejlige hjemmeside<br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </h1>
+                <br>
+                <div><a class="button" href="#">Klik her</a></div>
+            </article>
+            <div class="image-div">
+                <img src="assets/images/kvinde-foto.png" alt="">
+            </div>
+        </section>
+        <section class="change-color-panel">
+            <h2>Skift farver og skrifttype</h2>
+            <div class="change-color-elements">
+            <div>
+                <h3>Skift baggrundsfarve:</h3>
+                <input class="bg" type="color" value="#F3F4C3"/>
+            </div>
+            <div>
+                <h3>Skift farve på skriften:</h3>
+                <input class="font-color" type="color" value="#020122"/>
+            </div>
+            <div>
+                <h3>Skift farve på knapper:</h3>
+                <input class="button-color" type="color" value="#7824FF"/>
+            </div>
+            <div>
+                <h3>Skift farve på cirkel:</h3>
+                <input class="circle-color" type="color" value="#7824FF"/>
+            </div>
+            <div>
+                <h3>Skift skrifttype:</h3>
+                <select id="input-font" class="input"
+                    onchange="changeFontStyle (this);"> 
+  
+                    <option value="Beckman" 
+                    selected="selected"> 
+                                Beckman 
+                                </option> 
+                    <option value="Arial">Arial</option> 
+                    <option value="fantasy">Fantasy</option> 
+                    <option value="Poppins">Poppins</option> 
+                    <option value="Times New Roman">Times New Roman</option> 
+                    <option value="Playfair Display">Playfair Display</option> 
+                    <option value="cursive">Comic Sans</option> 
+    </select> 
+            </div>
+        </div>
+        </section>
+    </main>
+</body>
+</html>

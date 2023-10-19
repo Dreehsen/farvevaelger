@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Yeseva+One&display=swap');
+@import url('https://fonts.cdnfonts.com/css/beckman-2');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+html{
+    font-size: 62.5%;
+    font-family: 'Beckman', sans-serif;
+}
+
+body{
+    background-color: #F3F4C3;
+    color: #020122;
+    font-size: 1.6rem;
+    overflow-x: hidden;  
+}
+
+main{
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1, h2{
+    font-family: 'Beckman', sans-serif;
+    
+}
+
+h1{
+    font-size: 6rem;
+    padding: 0;
+    margin: 0;
+    font-weight: 800;
+}
+
+h2{
+    font-size: 3rem;
+    margin: 0;
+    color: var(--font);
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+p, li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: var(--font);
+}
+
+.image-div{
+    background-color: #7824FF;
+    border-radius: 50%;
+    padding: 7rem;
+}
+
+img{
+    max-width:300px;
+}
+
+      header{
+        max-width: 1400px;
+        margin: auto;
+        
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo{
+        height: 6rem;
+    }
+
+    .logo-text{
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-text a{
+        padding: 0;
+    }
+    
+    nav ol{
+        display: flex;
+        list-style: none;
+    }
+    
+    a{
+        padding: 0 2rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: var(--font);
+        font-family: "Poppins", sans-serif;
+        font-weight: bold; 
+    }
+
+    .button{
+        border: solid 5px #7824FF;
+        color: #7824FF;
+        padding: 1rem 4rem;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    
+    .hero{
+        margin-top: 5rem;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .hero-text-container{
+        max-width: 48%
+    }
+
+
+    .change-color-panel{
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        bottom: 0;
+        background-color: rgb(60, 39, 120);
+        color: white;
+        gap: 2rem;
+        padding: 1rem;
+        border-radius: 20px 20px 0 0;
+        border: 5px solid black;
+       
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .change-color-elements{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
